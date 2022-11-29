@@ -18,13 +18,15 @@
         table tr:nth-child(even) {
             background-color: #F4F6FD;
         }
+        .flex-wrap{flex-wrap: wrap;}
         tbody{background-color: #DADADA;}
-        .fixture-table{min-width: 28em;}
+        .fixture-table{max-width: 28em;}
         .fixture-table td{display: flex; justify-content: space-between; align-items: center;}
         .fixture-table .bandera{width: 4em; text-align: center;}
         table{border-collapse: collapse; margin:1em;}
         .banner img{
             max-width: 30em;
+            margin: 5em;
         }
         .banner{
             padding: 1em;
@@ -36,13 +38,23 @@
             margin: 2em;
         }
         footer a{color: whitesmoke; text-decoration: none;}
+        .grupos{
+            flex-wrap: wrap;
+        }
+        @media (max-width: 600px) {
+            .banner img {
+                width: 20em;
+                margin: 1em;
+            }
+        }
+
     </style>
 </head>
 <body>
     
     <header id="inicio" class="navbar">
         <nav class="">
-            <ul class="d-flex">
+            <ul class="d-flex flex-wrap">
                 <li><a href="#fase-de-grupos">
                     Fase de grupos
                 </a></li>
