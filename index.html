@@ -5,54 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        *{margin:0;padding: 0; box-sizing: border-box;}
-        html{scroll-behavior: smooth;}
-        body{background: rgb(253,45,227);background: linear-gradient(45deg, #CF6CA8 0%, #57F7F3 100%); background-repeat: no-repeat; font-family: sans-serif;}
-        .navbar{background-color: #2C3E50; padding: 0.5em;}
-        .navbar ul li{list-style: none; margin:0.6em;} .navbar ul li a{text-decoration: none; color: whitesmoke;}
-        .d-flex{display: flex;} .justify-content-center{justify-content: center;} .align-items-center{align-items: center;}
-        h2{color: whitesmoke;}
-        thead{background-color: #69BFF8;}
-        th{color: whitesmoke;}
-        table tr:nth-child(even) {
-            background-color: #F4F6FD;
-        }
-        .flex-wrap{flex-wrap: wrap;}
-        tbody{background-color: #DADADA;}
-        .fixture-table{max-width: 28em;}
-        .fixture-table td{display: flex; justify-content: space-between; align-items: center;}
-        .fixture-table .bandera{width: 4em; text-align: center;}
-        table{border-collapse: collapse; margin:1em;}
-        .banner img{
-            max-width: 30em;
-            margin: 5em;
-        }
-        .banner{
-            padding: 1em;
-        }
-        main{
-            margin: 1em;
-        }
-        footer{
-            margin: 2em;
-        }
-        footer a{color: whitesmoke; text-decoration: none;}
-        .grupos{
-            flex-wrap: wrap;
-        }
-        @media (max-width: 600px) {
-            .banner img {
-                width: 20em;
-                margin: 1em;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     
-    <header id="inicio" class="navbar">
+    <header class="navbar">
         <nav class="">
             <ul class="d-flex flex-wrap">
                 <li><a href="#fase-de-grupos">
@@ -78,11 +35,11 @@
     </header>
 
     <main>
+        <h2 id="inicio"></h2>
         <div class="banner d-flex justify-content-center">
             <img src="./img/qatar-text.svg" alt="">
-            <h1 style="display: none;">FIFA WORLD CUP QATAR 2022</h1>
         </div>
-        <h2>Fase de grupos</h2><hr>
+        <h2 id="fase-de-grupos">Fase de grupos</h2><hr>
         <section class="grupos d-flex justify-content-center">
             <table class="fixture-table">
                 <thead>
@@ -111,7 +68,7 @@
                                 <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
                             </div>
                             <div>
-                                <b>Qatar (...) - Ecuador (...)</b>
+                                <b>Senegal (...) - Paises Bajos (...)</b>
                             </div>
                             <div class="bandera">
                                 <small>Estadio Al Bayt</small>
@@ -126,7 +83,7 @@
                                 <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
                             </div>
                             <div>
-                                <b>Qatar (...) - Ecuador (...)</b>
+                                <b>Qatar (...) - Senegal (...)</b>
                             </div>
                             <div class="bandera">
                                 <small>Estadio Al Bayt</small>
@@ -141,7 +98,231 @@
                                 <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
                             </div>
                             <div>
-                                <b>Qatar (...) - Ecuador (...)</b>
+                                <b>Ecuador (...) - Paises Bajos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Qatar (...) - Paises Bajos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Ecuador (...) - Senegal (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="fixture-table">
+                <thead>
+                    <tr><th>Grupo A</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Irán (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Estados Unidos (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="fixture-table">
+                <thead>
+                    <tr><th>Grupo A</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Arabia Saudita (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Mexico (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Mexico (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Arabia Saudita (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Estados Unidos (...)</b>
                             </div>
                             <div class="bandera">
                                 <small>Estadio Al Bayt</small>
@@ -178,7 +359,7 @@
                                 <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
                             </div>
                             <div>
-                                <b>Qatar (...) - Ecuador (...)</b>
+                                <b>Senegal (...) - Paises Bajos (...)</b>
                             </div>
                             <div class="bandera">
                                 <small>Estadio Al Bayt</small>
@@ -193,7 +374,7 @@
                                 <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
                             </div>
                             <div>
-                                <b>Qatar (...) - Ecuador (...)</b>
+                                <b>Qatar (...) - Senegal (...)</b>
                             </div>
                             <div class="bandera">
                                 <small>Estadio Al Bayt</small>
@@ -208,7 +389,425 @@
                                 <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
                             </div>
                             <div>
-                                <b>Qatar (...) - Ecuador (...)</b>
+                                <b>Ecuador (...) - Paises Bajos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Qatar (...) - Paises Bajos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Ecuador (...) - Senegal (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="fixture-table">
+                <thead>
+                    <tr><th>Grupo A</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Irán (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Estados Unidos (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="fixture-table">
+                <thead>
+                    <tr><th>Grupo A</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Arabia Saudita (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Mexico (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Mexico (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Arabia Saudita (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="fixture-table">
+                <thead>
+                    <tr><th>Grupo A</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Irán (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Estados Unidos (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Inglaterra (...) - Gales (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Estados Unidos (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="fixture-table">
+                <thead>
+                    <tr><th>Grupo A</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Arabia Saudita (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Mexico (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Mexico (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Arabia Saudita (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Argentina (...) - Polonia (...)</b>
+                            </div>
+                            <div class="bandera">
+                                <small>Estadio Al Bayt</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bandera">
+                                <small>20 Nov, 13:00hs</small>
+                                <img src="https://picsum.photos/200" alt="pic" width="40px" height="30px">
+                            </div>
+                            <div>
+                                <b>Iran (...) - Estados Unidos (...)</b>
                             </div>
                             <div class="bandera">
                                 <small>Estadio Al Bayt</small>
@@ -220,48 +819,49 @@
             </table>
         </section>
 
-        <h2>Octavos de final</h2><hr>
-        <table>
+        <h2 id="octavos">Octavos de final</h2><hr>
+        <table class="tabla-eliminacion">
             <tbody>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
+                <tr><td>1° Grupa A vs 2° Grupo B | Sábado 3 de Diciembre, a las 12</td></tr>
             </tbody>
         </table>
 
-        <h2>Cuartos de final</h2><hr>
-        <table>
+        <h2 id="cuartos">Cuartos de final</h2><hr>
+        <table class="tabla-eliminacion">
             <tbody>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
+                <tr><td>Ganador partido 1 vs. Ganador partido 2 | Viernes 9 de diciembre, a las 12</td></tr>
+                <tr><td>Ganador partido 1 vs. Ganador partido 2 | Viernes 9 de diciembre, a las 12</td></tr>
+                <tr><td>Ganador partido 1 vs. Ganador partido 2 | Viernes 9 de diciembre, a las 12</td></tr>
+                <tr><td>Ganador partido 1 vs. Ganador partido 2 | Viernes 9 de diciembre, a las 12</td></tr>
             </tbody>
         </table>
 
-        <h2>Semifinales</h2><hr>
-        <table>
+        <h2 id="semifinales">Semifinales</h2><hr>
+        <table class="tabla-eliminacion">
             <tbody>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
+                <tr><td>Ganador partido 1 vs. Ganador partido 2 | Viernes 9 de diciembre, a las 12</td></tr>
+                <tr><td>Ganador partido 1 vs. Ganador partido 2 | Viernes 9 de diciembre, a las 12</td></tr>
             </tbody>
         </table>
 
-        <h2>Partido por el tercer puesto</h2><hr>
-        <table>
+        <h2 id="tercer-puesto">Partido por el tercer puesto</h2><hr>
+        <table class="tabla-eliminacion">
             <tbody>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
+                <tr><td>Perdedor Semifinal 1 vs Perdedor Semifinal 2 | Viernes 9 de diciembre, a las 12</td></tr>
             </tbody>
         </table>
 
-        <h2>Final</h2><hr>
-        <table>
+        <h2 id="final">Final</h2><hr>
+        <table class="tabla-eliminacion">
             <tbody>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
-                <tr><td>12313 asdasd 1321 </td></tr>
+                <tr><td>Perdedor Semifinal 1 vs Perdedor Semifinal 2 | Viernes 9 de diciembre, a las 12</td></tr>
             </tbody>
         </table>
 
